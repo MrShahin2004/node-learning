@@ -2,7 +2,7 @@
 
 const http = require('http');
 
-const server = http.createServer(
+const Server = http.createServer(
     (req, res) => {
         console.log(req.url, req.method, req.headers);
         // process.exit();
@@ -23,4 +23,4 @@ const server = http.createServer(
         res.end();
     });
 
-server.listen(3000);
+Server.listen(3000);
