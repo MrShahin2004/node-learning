@@ -4,8 +4,6 @@ const http = require('http');
 
 const Server = http.createServer(
     (req, res) => {
-        console.log(req.url, req.method, req.headers);
-        // process.exit();
         res.setHeader('Content-Type', 'text/html');
         res.write(`<!doctype html>`);
         res.write(`<html lang="en-US">`);
