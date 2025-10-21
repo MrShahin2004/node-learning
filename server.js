@@ -4,6 +4,28 @@ const http = require('http');
 
 const Server = http.createServer(
     (req, res) => {
+        const URL = req.url;
+        if (URL === "/") {
+            res.setHeader('Content-Type', 'text/html');
+            res.write(`<!doctype html>`);
+            res.write(`<html lang="en-US">`);
+            res.write(`
+            <head>
+                <title>Enter Message</title>
+            </head>
+        `);
+            res.write(`
+            <body>
+                <form action="/message" method="post">
+                    <input type="text"/>
+                    <button type="submit">Send</button>
+                </form>
+            </body>
+        `);
+            res.write(`</html>`);
+            return res.end();
+        }
+
         res.setHeader('Content-Type', 'text/html');
         res.write(`<!doctype html>`);
         res.write(`<html lang="en-US">`);
