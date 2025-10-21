@@ -26,6 +26,13 @@ const Server = http.createServer(
             return res.end();
         }
 
+        if (URL === "/message" && Method === "POST") {
+            FS.writeFileSync("message.txt", "Dummy");
+            res.statusCode = 302;
+            res.setHeader("Location", "/");
+            return res.end();
+        }
+
         res.setHeader('Content-Type', 'text/html');
         res.write(`<!doctype html>`);
         res.write(`<html lang="en-US">`);
