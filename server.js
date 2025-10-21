@@ -17,7 +17,7 @@ const Server = http.createServer(
             res.write(`
             <body>
                 <form action="/message" method="post">
-                    <input type="text"/>
+                    <input type="text" name="message"/>
                     <button type="submit">Send</button>
                 </form>
             </body>
