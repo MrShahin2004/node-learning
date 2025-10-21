@@ -5,6 +5,7 @@ const http = require('http');
 const Server = http.createServer(
     (req, res) => {
         const URL = req.url;
+        const Method = req.method;
         if (URL === "/") {
             res.setHeader('Content-Type', 'text/html');
             res.write(`<!doctype html>`);
