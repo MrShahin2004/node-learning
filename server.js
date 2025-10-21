@@ -2,7 +2,7 @@
 
 const http = require('http');
 
-const Server = http.createServer(
+const Server = HTTP.createServer(
     (req, res) => {
         const URL = req.url;
         const Method = req.method;
