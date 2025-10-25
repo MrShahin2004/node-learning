@@ -1,10 +1,14 @@
 {
   "name": "node-learning",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "Learning Node.js for Building Massively Exciting Projects :)",
+  "license": "ISC",
+  "author": "Mr Shahin",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "private": true
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  }
 }
