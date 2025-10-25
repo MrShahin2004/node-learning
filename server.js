@@ -34,14 +34,14 @@ const Server = HTTP.createServer(
                 console.log(chunk);
                 Body.push(chunk);
             });
-            req.on("end", () => {
+            return req.on("end", () => {
                 let ParsedBody = Buffer.concat(Body).toString();
                 let Message = ParsedBody.split("=")[1];
                 FS.writeFileSync("message.txt", Message);
+                res.statusCode = 302;
+                res.setHeader("Location", "/");
+                return res.end();
             });
-            res.statusCode = 302;
-            res.setHeader("Location", "/");
-            return res.end();
         }
 
         res.setHeader('Content-Type', 'text/html');
