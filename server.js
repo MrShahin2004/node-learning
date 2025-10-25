@@ -1,7 +1,6 @@
 "use strict";
 
 const HTTP = require("http");
-const FS = require("fs");
 
 const Server = HTTP.createServer(
     (req, res) => {
