@@ -37,10 +37,11 @@ const Server = HTTP.createServer(
             return req.on("end", () => {
                 let ParsedBody = Buffer.concat(Body).toString();
                 let Message = ParsedBody.split("=")[1];
-                FS.writeFileSync("message.txt", Message);
-                res.statusCode = 302;
-                res.setHeader("Location", "/");
-                return res.end();
+                FS.writeFile("message.txt", Message, (error) => {
+                    res.statusCode = 302;
+                    res.setHeader("Location", "/");
+                    return res.end();
+                });
             });
         }
 
