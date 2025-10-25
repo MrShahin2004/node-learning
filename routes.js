@@ -60,3 +60,5 @@ const HandleRequest = (req, res) => {
     res.write(`</html>`);
     res.end();
 }
+
+module.exports = HandleRequest;
