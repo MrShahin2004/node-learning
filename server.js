@@ -1,6 +1,5 @@
 "use strict";
 
-const HTTP = require("http");
 const Express = require("express");
 
 const App = Express();
