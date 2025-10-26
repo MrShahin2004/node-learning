@@ -1,6 +1,7 @@
 "use strict";
 
 const Express = require("express");
+const BodyParser = require("body-parser");
 
 const App = Express();
 App.use((req,res,next)=>{
