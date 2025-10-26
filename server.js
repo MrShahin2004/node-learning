@@ -19,6 +19,4 @@ App.use((req,res,next)=>{
     `);
 });
 
-const Server = HTTP.createServer(App);
-
-Server.listen(3001);
+App.listen(3000);
