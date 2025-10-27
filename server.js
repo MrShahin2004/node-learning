@@ -15,7 +15,7 @@ App.use("/add-product", (req, res, next) => {
     `);
 });
 
-App.use("/product", (req, res, next) => {
+App.get("/product", (req, res, next) => {
     console.log(req.body);
     res.redirect("/");
 });
