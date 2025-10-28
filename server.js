@@ -1,6 +1,7 @@
 "use strict";
 
 // Imported the necessary modules.
+const Path = require("path");
 const Express = require("express");
 const AdminRoutes = require("./routes/admin");
 const ShopRoute = require("./routes/shop");
