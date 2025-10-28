@@ -8,6 +8,21 @@
     <title>Add Product</title>
 </head>
 <body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="/">Shop</a></li>
+            <li><a href="/add-product">Add Product</a></li>
+        </ul>
+    </nav>
+</header>
 
+<main>
+    <form action="/add-product" method="post">
+        <label for="input">Product Name</label>
+        <input id="input" name="title" type="text">
+        <button type="submit">Add Product</button>
+    </form>
+</main>
 </body>
 </html>
