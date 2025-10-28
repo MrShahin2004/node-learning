@@ -13,7 +13,7 @@ Router.get("/add-product",
     `);
     });
 
-Router.post("/product",
+Router.post("/add-product",
     (req, res, next) => {
         console.log(req.body);
         res.redirect("/");
