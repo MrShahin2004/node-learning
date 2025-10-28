@@ -17,7 +17,7 @@ App.use("/admin", AdminRoutes); // Can determine what segment should the paths i
 App.use(ShopRoute);
 
 // Added a 404 status page.
-App.use((req, res, next) => {
+App.use((req, res) => {
     res.status(404).send(`<h1>Page Not Found</h1>`);
 });
 
