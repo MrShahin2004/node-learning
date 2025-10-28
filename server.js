@@ -19,7 +19,7 @@ App.use(ShopRoute);
 
 // Added a 404 status page.
 App.use((req, res) => {
-    res.status(404).sendFile(`<h1>Page Not Found</h1>`);
+    res.status(404).sendFile(Path.join(__dirname, "views", "not-found.html"));
 });
 
 // Initiated the server.
