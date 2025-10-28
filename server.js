@@ -1,6 +1,7 @@
 "use strict";
 
 const Express = require("express");
+const AdminRoutes = require("./routes/admin");
 const BodyParser = require("body-parser");
 
 const App = Express();
