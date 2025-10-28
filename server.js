@@ -1,6 +1,6 @@
 "use strict";
 
-// Imported the necessary modules
+// Imported the necessary modules.
 const Express = require("express");
 const AdminRoutes = require("./routes/admin");
 const ShopRoute = require("./routes/shop");
@@ -16,5 +16,5 @@ App.use(BodyParser.urlencoded({extended: false}));
 App.use(AdminRoutes);
 App.use(ShopRoute);
 
-// Initiated the server
+// Initiated the server.
 App.listen(3001);
