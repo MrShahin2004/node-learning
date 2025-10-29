@@ -66,9 +66,11 @@
 </header>
 
 <main>
-    <form action="/admin/add-product" method="post">
-        <label for="input">Product Name</label>
-        <input id="input" name="title" type="text">
+    <form action="/admin/add-product" class="product-form" method="post">
+        <div class="form-control">
+            <label for="input">Product Name</label>
+            <input id="input" name="title" type="text">
+        </div>
         <button type="submit">Add Product</button>
     </form>
 </main>
