@@ -24,4 +24,6 @@ App.use((req, res) => {
 });
 
 // Initiated the server.
-App.listen(3001);
+App.listen(3001, () => {
+    console.log("Server is running on URL http://localhost:3001");
+});
