@@ -10,6 +10,8 @@ const BodyParser = require("body-parser");
 // Created an app.
 const App = Express();
 
+App.set("view engine", "pug");
+
 // Used the "body-parser" module.
 App.use(BodyParser.urlencoded({extended: false}));
 App.use(Express.static(Path.join(__dirname, "public")));
