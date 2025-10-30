@@ -11,6 +11,7 @@ const BodyParser = require("body-parser");
 const App = Express();
 
 App.set("view engine", "pug");
+App.set("views", "views");
 
 // Used the "body-parser" module.
 App.use(BodyParser.urlencoded({extended: false}));
