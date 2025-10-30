@@ -9,7 +9,7 @@ let ProductsArray = [];
 
 Router.get("/add-product",
     (req, res) => {
-        res.sendFile(Path.join(RootDir, "views", "add-product.html"));
+        res.render("add-product", {pageTitle: "Add Product"});
     });
 
 Router.post("/add-product",
