@@ -18,4 +18,5 @@ Router.post("/add-product",
         res.redirect("/");
     });
 
-module.exports = Router;
+exports.Router = Router;
+exports.Products = ProductsArray;
