@@ -6,6 +6,7 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title #{pageTitle}
         link(rel="stylesheet", href="/css/main.css")
+        block styles
     body#body
         header.main-header
             nav.main-header__nav
@@ -14,4 +15,4 @@ html(lang="en")
                         a(href="/") Shop
                     li.main-header__item
                         a(href="/admin/add-product") Add Product
-        h1 404 Not Found
+        block content
