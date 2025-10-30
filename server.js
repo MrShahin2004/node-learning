@@ -15,7 +15,7 @@ App.use(BodyParser.urlencoded({extended: false}));
 App.use(Express.static(Path.join(__dirname, "public")));
 
 // Used my created modules.
-App.use("/admin", AdminRoutes); // Can determine what segment should the paths in the module be in.
+App.use("/admin", AdminRoutes.Router); // Can determine what segment should the paths in the module be in.
 App.use(ShopRoute);
 
 // Added a 404 status page.
