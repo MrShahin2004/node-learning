@@ -13,7 +13,7 @@ Router.get("/add-product",
     });
 
 Router.post("/add-product",
-    (req, res, next) => {
+    (req, res) => {
         ProductsArray.push({title: req.body.title});
         res.redirect("/");
     });
