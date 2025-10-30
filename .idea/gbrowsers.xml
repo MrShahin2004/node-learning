@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GBrowserService"><![CDATA[{
+  "history": [
+    {
+      "name": "GBrowser - IntelliJ IDEs Plugin | Marketplace",
+      "url": "https://plugins.jetbrains.com/plugin/14458-gbrowser"
+    },
+    {
+      "name": "Google",
+      "url": "https://www.google.com/"
+    },
+    {
+      "name": "Sign in - Google Accounts",
+      "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2F&dsh=S805543561%3A1761847298887777&ec=futura_exp_og_so_72776762_e&hl=en&ifkv=ARESoU20NIR4uTRMTzh_bgb6nz02bhu7pWqOi8BNRMem7IuqhglE5nD7ndbFaJgQNnaIIu7mKxRJ&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+    },
+    {
+      "name": "Welcome",
+      "url": "https://accounts.google.com/v3/signin/challenge/pwd?TL=ANzgctQd3o9W3yyvMxd8N8WqeCUKb2e4hVz1hQQ0KOPYrMUXUR945pgKI2xJu6Pl&checkConnection&checkedDomains=youtube&cid=2&continue=https%3A%2F%2Fwww.google.com%2F&dsh=S805543561%3A1761847298887777&ec=futura_exp_og_so_72776762_e&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU20NIR4uTRMTzh_bgb6nz02bhu7pWqOi8BNRMem7IuqhglE5nD7ndbFaJgQNnaIIu7mKxRJ&pstMsg=1"
+    },
+    {
+      "name": "2-Step Verification To help keep your account safe, Google wants to make sure it’s really you trying to sign in",
+      "url": "https://accounts.google.com/v3/signin/challenge/dp?TL=ANzgctQd3o9W3yyvMxd8N8WqeCUKb2e4hVz1hQQ0KOPYrMUXUR945pgKI2xJu6Pl&checkConnection&checkedDomains=youtube&cid=14&continue=https%3A%2F%2Fwww.google.com%2F&dsh=S805543561%3A1761847298887777&ec=futura_exp_og_so_72776762_e&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU20NIR4uTRMTzh_bgb6nz02bhu7pWqOi8BNRMem7IuqhglE5nD7ndbFaJgQNnaIIu7mKxRJ&pstMsg=1"
+    },
+    {
+      "name": "2-Step Verification To help keep your account safe, Google wants to make sure it’s really you trying to sign in",
+      "url": "https://accounts.google.com/v3/signin/challenge/selection?TL=ANzgctQd3o9W3yyvMxd8N8WqeCUKb2e4hVz1hQQ0KOPYrMUXUR945pgKI2xJu6Pl&checkConnection&checkedDomains=youtube&continue=https%3A%2F%2Fwww.google.com%2F&dsh=S805543561%3A1761847298887777&ec=futura_exp_og_so_72776762_e&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU20NIR4uTRMTzh_bgb6nz02bhu7pWqOi8BNRMem7IuqhglE5nD7ndbFaJgQNnaIIu7mKxRJ&lid=2&pstMsg=1"
+    },
+    {
+      "name": "2-Step Verification To help keep your account safe, Google wants to make sure it’s really you trying to sign in",
+      "url": "https://accounts.google.com/v3/signin/challenge/bc?TL=ANzgctQd3o9W3yyvMxd8N8WqeCUKb2e4hVz1hQQ0KOPYrMUXUR945pgKI2xJu6Pl&checkConnection&checkedDomains=youtube&cid=4&continue=https%3A%2F%2Fwww.google.com%2F&dsh=S805543561%3A1761847298887777&ec=futura_exp_og_so_72776762_e&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU20NIR4uTRMTzh_bgb6nz02bhu7pWqOi8BNRMem7IuqhglE5nD7ndbFaJgQNnaIIu7mKxRJ&pstMsg=1"
+    },
+    {
+      "name": "Sign in - Google Accounts",
+      "url": "https://accounts.google.com/v3/signin/speedbump/passkeyenrollment?TL=ANzgctQd3o9W3yyvMxd8N8WqeCUKb2e4hVz1hQQ0KOPYrMUXUR945pgKI2xJu6Pl&checkConnection&checkedDomains=youtube&continue=https%3A%2F%2Fwww.google.com%2F&dsh=S805543561%3A1761847298887777&ec=futura_exp_og_so_72776762_e&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU20NIR4uTRMTzh_bgb6nz02bhu7pWqOi8BNRMem7IuqhglE5nD7ndbFaJgQNnaIIu7mKxRJ&pstMsg=1"
+    },
+    {
+      "name": "You're all set!",
+      "url": "https://accounts.google.com/v3/signin/speedbump/passkeyenrollment/error?TL=ANzgctQd3o9W3yyvMxd8N8WqeCUKb2e4hVz1hQQ0KOPYrMUXUR945pgKI2xJu6Pl&checkConnection&checkedDomains=youtube&continue=https%3A%2F%2Fwww.google.com%2F&dsh=S805543561%3A1761847298887777&ec=futura_exp_og_so_72776762_e&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU20NIR4uTRMTzh_bgb6nz02bhu7pWqOi8BNRMem7IuqhglE5nD7ndbFaJgQNnaIIu7mKxRJ&pstMsg=1"
+    },
+    {
+      "name": "mclaren - Google Search",
+      "url": "https://www.google.com/search?q=mclaren&sca_esv=dc724815bbf34a06&sxsrf=AE3TifMmN7MAdWvKKgnlyDvEONv1pbSBcg%3A1761847391976&source=hp&ei=X6gDad3YOL2mi-gP9vCDEA&iflsig=AOw8s4IAAAAAaQO2b2_G10rRiJdwuhb4ayWlTl7gZ-Lx&oq=&gs_lp=Egdnd3Mtd2l6IgAqAggJMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMg0QIxjwBRgnGMkCGOoCMgcQIxgnGOoCMg0QIxjwBRgnGMkCGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCSJklUABYAHABeACQAQCYAQCgAQCqAQC4AQHIAQCYAgGgAg2oAgqYAw3xBez05tBssQJzkgcBMaAHALIHALgHAMIHAzMtMcgHDA&sclient=gws-wiz"
+    },
+    {
+      "name": "mclaren - Google Search",
+      "url": "https://www.google.com/search?sca_esv=dc724815bbf34a06&sxsrf=AE3TifNsZmPYRWEIhJ08yLuajopR85RwrA:1761847407683&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeoJTKjrFjVxydQWqI2NcOhYPURIv2wPgv_w_sE_0Sc6QqqU7k8cSQndc5mTXCIWHa5yWh8UZLeaMB2TzsL707pc1UdUOyvWrdH9KzB0rwa56e4sZMK6yB9HCSc5sZ95qH7WhtZ4UgYYwhFKAtUJ9yDKl7bQ8&q=mclaren&sa=X&ved=2ahUKEwifoYiHwcyQAxW63QIHHagbOY0QtKgLegQILxAB&biw=1155&bih=658&dpr=1.25"
+    },
+    {
+      "name": "headphones image - Google Search",
+      "url": "https://www.google.com/search?q=headphones+image&sca_esv=08a87188ee7c8cf0&sxsrf=AE3TifNKtfhAUhstChX7VcMdZrNoEwKYlg%3A1761847425678&source=hp&ei=gagDad7eJ5DIkPIPz-XQ0QI&iflsig=AOw8s4IAAAAAaQO2kcOibt0IkP5nPnXyFUj6QTAQ2RY1&udm=2&oq=&gs_lp=Egdnd3Mtd2l6IgAqAggEMgoQIxjwBRgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMg0QIxjwBRgnGMkCGOoCMgcQIxgnGOoCMg0QIxjwBRgnGMkCGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCSNQqUABYAHACeACQAQCYAQCgAQCqAQC4AQHIAQCYAgKgAguoAgqYAwjxBYLSDZVcKaWekgcBMqAHALIHALgHAMIHAzItMsgHCg&sclient=gws-wiz"
+    },
+    {
+      "name": "Your SafeSearch setting",
+      "url": "https://www.google.com/safesearch?prev=https://www.google.com/search%3Fq%3Dheadphones%2Bimage%26sca_esv%3D08a87188ee7c8cf0%26sxsrf%3DAE3TifNKtfhAUhstChX7VcMdZrNoEwKYlg:1761847425678%26source%3Dhp%26ei%3DgagDad7eJ5DIkPIPz-XQ0QI%26iflsig%3DAOw8s4IAAAAAaQO2kcOibt0IkP5nPnXyFUj6QTAQ2RY1%26udm%3D2%26oq%3D%26gs_lp%3DEgdnd3Mtd2l6IgAqAggEMgoQIxjwBRgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMg0QIxjwBRgnGMkCGOoCMgcQIxgnGOoCMg0QIxjwBRgnGMkCGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCSNQqUABYAHACeACQAQCYAQCgAQCqAQC4AQHIAQCYAgKgAguoAgqYAwjxBYLSDZVcKaWekgcBMqAHALIHALgHAMIHAzItMsgHCg%26sclient%3Dgws-wiz&hl=en"
+    },
+    {
+      "name": "headphones image - Google Search",
+      "url": "https://www.google.com/search?q=headphones+image&sca_esv=08a87188ee7c8cf0&sxsrf=AE3TifNKtfhAUhstChX7VcMdZrNoEwKYlg:1761847425678&source=hp&ei=gagDad7eJ5DIkPIPz-XQ0QI&iflsig=AOw8s4IAAAAAaQO2kcOibt0IkP5nPnXyFUj6QTAQ2RY1&udm=2&oq=&gs_lp=Egdnd3Mtd2l6IgAqAggEMgoQIxjwBRgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCMg0QIxjwBRgnGMkCGOoCMgcQIxgnGOoCMg0QIxjwBRgnGMkCGOoCMgcQIxgnGOoCMgcQIxgnGOoCMgcQIxgnGOoCSNQqUABYAHACeACQAQCYAQCgAQCqAQC4AQHIAQCYAgKgAguoAgqYAwjxBYLSDZVcKaWekgcBMqAHALIHALgHAMIHAzItMsgHCg&sclient=gws-wiz&sa=X&ved=0ahUKEwjOneKYwcyQAxWETkEAHc9ZNqIQkYoICAs"
+    },
+    {
+      "name": "pornhub - Google Search",
+      "url": "https://www.google.com/search?q=pornhub&sca_esv=08a87188ee7c8cf0&udm=2&sxsrf=AE3TifMrDPrtFcptonRuDn7aaBbeDz-lbg%3A1761847435292&ei=i6gDaaeyEeyri-gPuf3h2QQ&ved=0ahUKEwjno52UwcyQAxXs1QIHHbl-OEsQ4dUDCBI&uact=5&oq=pornhub&gs_lp=Egtnd3Mtd2l6LWltZyIHcG9ybmh1YkiqOVCwBFj-F3ABeACQAQCYAcIBoAHrCaoBAzAuN7gBA8gBAPgBAZgCBaAC6wWoAgrCAgoQIxgnGMkCGOoCwgIHECMYJxjJAsICBRAAGIAEwgIKEAAYgAQYQxiKBcICCBAAGIAEGMcDmAMHkgcFMS4zLjGgB-AXsgcFMC4zLjG4B-QFwgcDMi01yAcV&sclient=gws-wiz-img"
+    },
+    {
+      "name": "pornhub sex - Google Search",
+      "url": "https://www.google.com/search?q=pornhub+sex&sca_esv=08a87188ee7c8cf0&udm=2&sxsrf=AE3TifN0Rlf9LzfjOlAnxLN0ywR5FFEyqw%3A1761847457343&ei=oagDabTFFN68i-gPtc-24AM&ved=0ahUKEwj0md-ewcyQAxVe3gIHHbWnDTwQ4dUDCBI&uact=5&oq=pornhub+sex&gs_lp=Egtnd3Mtd2l6LWltZyILcG9ybmh1YiBzZXhIhQhQjwJYmAdwAXgAkAEAmAGnAaAB4AOqAQMwLjO4AQPIAQD4AQGYAgCgAgCYAwCIBgGSBwCgB4cBsgcAuAcAwgcAyAcA&sclient=gws-wiz-img"
+    }
+  ]
+}]]></component>
+</project>
