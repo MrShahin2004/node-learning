@@ -1,7 +1,7 @@
 "use strict";
 
 const Path = require("path");
-const ChildProcess = require('child_process');
+const ChildProcess = require("child_process");
 
 const PathToPSEngine = Path.join("C:", "Program Files", "PowerShell", "7", "pwsh.exe");
 const PathToPSFile = Path.join("D:", "Front-end Programming", "JS Projects",
