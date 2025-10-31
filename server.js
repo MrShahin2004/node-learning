@@ -13,7 +13,7 @@ const App = Express();
 
 App.engine("hbs", engine({extname: ".hbs", defaultLayout: false}));
 App.set("view engine", "hbs");
-App.set("views", "views");
+App.set("views", Path.join(__dirname, "views"));
 
 // Used the "body-parser" module.
 App.use(BodyParser.urlencoded({extended: false}));
