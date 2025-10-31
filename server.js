@@ -6,7 +6,6 @@ const Express = require("express");
 const AdminRoutes = require("./routes/admin");
 const ShopRoute = require("./routes/shop");
 const BodyParser = require("body-parser");
-const {engine} = require("express-handlebars");
 
 // Created an app.
 const App = Express();
