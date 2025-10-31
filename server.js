@@ -11,8 +11,8 @@ const ExpressHBS = require("express-handlebars");
 // Created an app.
 const App = Express();
 
-App.engine("handlebars", ExpressHBS());
-App.set("view engine", "handlebars");
+App.engine("hbs", ExpressHBS());
+App.set("view engine", "hbs");
 App.set("views", "views");
 
 // Used the "body-parser" module.
