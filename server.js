@@ -11,6 +11,7 @@ const ExpressHBS = require("express-handlebars");
 // Created an app.
 const App = Express();
 
+App.engine("handlebars", ExpressHBS());
 App.set("view engine", "pug");
 App.set("views", "views");
 
