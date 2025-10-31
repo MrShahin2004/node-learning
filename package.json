@@ -4,6 +4,13 @@
   "private": true,
   "description": "Learning Node.js for Building Massively Exciting Projects :)",
   "license": "ISC",
+  "bin": "win-app.js",
+  "pkg": {
+    "targets": [
+      "node18-win-x64"
+    ],
+    "outputPath": "D:\\AI"
+  },
   "author": "Mr Shahin",
   "type": "commonjs",
   "main": "index.js",
