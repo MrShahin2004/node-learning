@@ -11,7 +11,6 @@ const {engine} = require("express-handlebars");
 // Created an app.
 const App = Express();
 
-App.engine("hbs", engine({extname: ".hbs", defaultLayout: false}));
 App.set("view engine", "hbs");
 App.set("views", Path.join(__dirname, "views"));
 
