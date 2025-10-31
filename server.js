@@ -10,7 +10,7 @@ const BodyParser = require("body-parser");
 // Created an app.
 const App = Express();
 
-App.set("view engine", "hbs");
+App.set("view engine", "ejs");
 App.set("views", Path.join(__dirname, "views"));
 
 // Used the "body-parser" module.
