@@ -12,7 +12,7 @@ const ExpressHBS = require("express-handlebars");
 const App = Express();
 
 App.engine("handlebars", ExpressHBS());
-App.set("view engine", "pug");
+App.set("view engine", "handlebars");
 App.set("views", "views");
 
 // Used the "body-parser" module.
