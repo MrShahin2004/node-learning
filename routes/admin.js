@@ -12,11 +12,7 @@ Router.get("/add-product",
         res.render("add-product", ProductsController.GetAddProduct);
     });
 
-Router.post("/add-product",
-    (req, res) => {
-        ProductsArray.push({title: req.body.title});
-        res.redirect("/");
-    });
+Router.post("/add-product", ProductsController.PostAddProduct);
 
 exports.router = Router;
 exports.products = ProductsArray;
