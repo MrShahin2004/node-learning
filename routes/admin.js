@@ -5,8 +5,6 @@ const Express = require("express");
 const ProductsController = require("../controllers/products");
 const Router = Express.Router();
 
-let ProductsArray = [];
-
 Router.get("/add-product",
     (req, res) => {
         res.render("add-product", ProductsController.GetAddProduct);
