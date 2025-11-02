@@ -7,3 +7,8 @@ exports.GetAddProduct = (req, res, next) => {
         activeAddProduct: true
     });
 }
+
+exports.PostAddProduct = (req, res) => {
+    ProductsArray.push({title: req.body.title});
+    res.redirect("/");
+}
