@@ -2,7 +2,7 @@
 
 const Path = require("path");
 const Express = require("express");
-const ProductsController = require("controllers/products");
+const ProductsController = require("../controllers/products");
 const Router = Express.Router();
 
 let ProductsArray = [];
