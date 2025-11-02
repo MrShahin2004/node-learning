@@ -30,6 +30,7 @@
     "express": "^5.1.0",
     "express-handlebars": "^8.0.3",
     "fast-glob": "^3.3.3",
+    "path-exists": "^5.0.0",
     "pdf-parse": "^2.4.5",
     "pdf-parse-new": "^1.4.1",
     "pug": "^3.0.3",
