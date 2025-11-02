@@ -2,7 +2,7 @@
 
 const Path = require("path");
 const Express = require("express");
-const RootDir = require("../utils/path");
+
 const Router = Express.Router();
 
 let ProductsArray = [];
