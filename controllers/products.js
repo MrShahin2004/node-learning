@@ -1,3 +1,5 @@
+let ProductsArray = [];
+
 exports.GetAddProduct = (req, res, next) => {
     res.render('add-product', {
         pageTitle: 'Add Product',
