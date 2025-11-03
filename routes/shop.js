@@ -3,8 +3,8 @@
 const Path = require("path");
 const Express = require('express');
 const Router = Express.Router();
-const ProductController = require("../controllers/products");
+const ProductsController = require("../controllers/products");
 
-Router.get("/", ProductController.GetProducts);
+Router.get("/", ProductsController.GetProducts);
 
 module.exports = Router;
