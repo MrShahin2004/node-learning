@@ -1,3 +1,5 @@
+"use strict";
+
 let ProductsArray = [];
 
 exports.GetAddProduct = (req, res, next) => {
