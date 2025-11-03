@@ -4,6 +4,7 @@
 const Path = require("path");
 const Express = require("express");
 const BodyParser = require("body-parser");
+const Page404 = require("./controllers/page-404");
 
 // Created an app.
 const App = Express();
@@ -23,9 +24,7 @@ App.use("/admin", AdminRoutes.router); // Can determine what segment should the 
 App.use(ShopRoute);
 
 // Added a 404 status page.
-App.use((req, res) => {
-    res.status(404).render("not-found", {pageTitle: "404 Not Found", path: req.path});
-});
+App.use(Page404.NotFoundPage);
 
 // Initiated the server.
 App.listen(3001, () => {
