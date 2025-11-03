@@ -9,7 +9,7 @@ module.exports = class Product {
     }
 
     save() {
-        ProductsArray.push(this);
+        const p = Path.join(Path.dirname(process.mainModule.filename), "data", "products.json");
     }
 
     static fetchAll() {
