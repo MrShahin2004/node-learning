@@ -12,8 +12,8 @@ const GetProductsFromFile = (callback) => {
         } else {
             try {
                 return callback(JSON.parse(content));
-            } catch (e) {
-                console.error("Failed to return the data. Error log: ", e);
+            } catch (error) {
+                console.error("Failed to return the data. Error log: ", error);
                 return callback([]);
             }
         }
