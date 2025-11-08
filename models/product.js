@@ -26,15 +26,7 @@ module.exports = class Product {
     }
 
     save() {
-        FS.readFile(JSONFilePath, (error, content) => {
-            let products = [];
-            if (!error && content && content.length) {
-                try {
-                    products = JSON.parse(content);
-                } catch (error) {
-                    console.error("Failed to parse the JSON value. Error log: ", error);
-                }
-            }
+        GetProductsFromFile((products) => {
             products.push(this);
 
             FS.writeFile(JSONFilePath, JSON.stringify(products, null, 2),
@@ -47,17 +39,6 @@ module.exports = class Product {
     }
 
     static fetchAll(callback) {
-        FS.readFile(JSONFilePath, (error, content) => {
-            if (error || !content || !content.length) {
-                return callback([]);
-            } else {
-                try {
-                    callback(JSON.parse(content));
-                } catch (e) {
-                    console.error("Failed to return the data. Error log: ", e);
-                    callback([]);
-                }
-            }
-        });
+        GetProductsFromFile(callback);
     }
 }
