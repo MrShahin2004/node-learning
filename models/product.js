@@ -22,11 +22,12 @@ module.exports = class Product {
             }
             products.push(this);
 
-            FS.writeFile(JSONFilePath, JSON.stringify(products, null, 2), (error) => {
-                if (error) {
-                    console.error(error);
-                }
-            });
+            FS.writeFile(JSONFilePath, JSON.stringify(products, null, 2),
+                (error) => {
+                    if (error) {
+                        console.error(error);
+                    }
+                });
         });
     }
 
