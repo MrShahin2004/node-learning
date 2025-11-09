@@ -30,3 +30,10 @@ exports.GetProducts = (req, res, next) => {
         });
     });
 };
+
+exports.GoToCart = (req, res) => {
+    res.render("shop/cart", {
+        pageTitle: "Cart",
+        path: "/cart"
+    });
+}
