@@ -1,10 +1,15 @@
 "use strict";
 
-const Path = require("path");
 const Express = require('express');
 const Router = Express.Router();
-const ProductsController = require("../controllers/products");
+const ShopController = require("../controllers/shop");
 
-Router.get("/", ProductsController.GetProducts);
+Router.get("/", ShopController.GetIndex);
+
+Router.get("/products", ShopController.GetProducts);
+
+Router.get("/cart", ShopController.GetCart);
+
+Router.get("/checkout", ShopController.GetCheckout);
 
 module.exports = Router;
