@@ -20,20 +20,10 @@ exports.PostAddProduct = (req, res) => {
 
 exports.GetProducts = (req, res, next) => {
     Product.fetchAll((products) => {
-        res.render("shop/product-list", {
+        res.render("admin/products", {
             prods: products,
-            pageTitle: "Shop",
-            path: "/",
-            hasProducts: products.length > 0,
-            activeShop: true,
-            productCSS: true
+            pageTitle: "Admin Products",
+            path: "/admin/products"
         });
-    });
-};
-
-exports.GoToCart = (req, res) => {
-    res.render("shop/cart", {
-        pageTitle: "Cart",
-        path: "/cart"
     });
 }
