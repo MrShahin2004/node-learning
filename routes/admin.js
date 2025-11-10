@@ -1,6 +1,5 @@
 "use strict";
 
-const Path = require("path");
 const Express = require("express");
 const AdminController = require("../controllers/admin");
 const Router = Express.Router();
