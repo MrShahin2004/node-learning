@@ -2,16 +2,44 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title><%= pageTitle %></title>
-    <link href="../css/main.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/product.css" rel="stylesheet">
 </head>
 <body id="body">
 <%- include("../includes/navigation.ejs") %>
 
-<h1>Your Cart</h1>
-<p>This is where your shopping cart is displayed.</p>
+<main>
+    <% if (prods.length > 0) { %>
+        <h1>My Products</h1>
+        <p>List of all the products...</p>
+        <div class="grid">
+            <% for (let product of prods) { %>
+                <article class="card product-item">
+                    <header class="card__header">
+                        <h1 class="product__title"><%= product.title %></h1>
+                    </header>
+                    <div class="card__image">
+                        <img alt="Product Image"
+                             src=<%= product.imageURL %>>
+                    </div>
+                    <div class="card__content">
+                        <h2 class="product__price">$<%= product.price %></h2>
+                        <p class="product__description"><%= product.description %></p>
+                    </div>
+                    <div class="card__actions">
+                        <button class="btn">Edit</button>
+                        <button class="btn">Delete</button>
+                    </div>
+                </article>
+            <% } %>
+        </div>
+    <% } else { %>
+        <h1>No Products Found</h1>
+    <% } %>
+</main>
 </body>
 </html>
