@@ -13,7 +13,11 @@ exports.GetAddProduct = (req, res, next) => {
 }
 
 exports.PostAddProduct = (req, res) => {
-    let product = new Product(req.body.title);
+    let Title = req.body.title;
+    let ImageURL = req.body.imageURL;
+    let Description = req.body.description;
+    let Price = req.body.price;
+    let product = new Product(Title, ImageURL, Description, Price);
     product.save();
     res.redirect("/");
 }
