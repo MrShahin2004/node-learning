@@ -1,5 +1,26 @@
 [
   {
-    "title": "Toyota Camry"
+    "title": "Chevrolet Camaro",
+    "imageURL": "https://i.gaw.to/content/photos/54/43/544334-chevrolet-camaro-ss-2022-gros-bonheur-a-sanair.jpeg",
+    "description": "An immensely powerful American muscle car for energetic youth",
+    "price": "32500"
+  },
+  {
+    "title": "Aston Martin DBX",
+    "imageURL": "https://economysaudiarabia.com/cdn-cgi/imagedelivery/Xfg_b7GtigYi5mxeAzkt9w/economysaudiarabia.com/2023/11/18_4645762.jpg/w=1200,h=720",
+    "description": "A British sport SUV for valuable people",
+    "price": "256000"
+  },
+  {
+    "title": "Dodge Challenger",
+    "imageURL": "https://cdn.dealeraccelerate.com/vanguard/1/28236/1422523/1920x1440/2023-dodge-challenger-srt-demon-170",
+    "description": "An American muscle car with a supercharged V8 engine",
+    "price": "100000"
+  },
+  {
+    "title": "Ford Mustang GTD",
+    "imageURL": "https://weudealerimagesprd.blob.core.windows.net/fi13/news/ford-mustang-gtd.jpg",
+    "description": "An American muscle car built by Ford",
+    "price": "328000"
   }
 ]
