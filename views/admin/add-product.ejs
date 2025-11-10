@@ -17,7 +17,19 @@
     <form action="/admin/add-product" class="product-form" method="POST">
         <div class="form-control">
             <label for="title">Title</label>
-            <input id="title" name="title" type="text">
+            <input style="padding: 0.5rem;" id="title" name="title" type="text">
+        </div>
+        <div class="form-control">
+            <label for="image-url">Image URL</label>
+            <input style="padding: 0.5rem;" id="image-url" name="image-url" type="text">
+        </div>
+        <div class="form-control">
+            <label for="description">Description</label>
+            <textarea style="padding: 0.5rem;" name="description" id="description" rows="5"></textarea>
+        </div>
+        <div class="form-control">
+            <label for="price">Price</label>
+            <input style="padding: 0.5rem;" id="price" name="price" type="number">
         </div>
 
         <button class="btn" type="submit">Add Product</button>
