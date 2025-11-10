@@ -10,6 +10,8 @@ Router.get("/products", ShopController.GetProducts);
 
 Router.get("/cart", ShopController.GetCart);
 
+Router.get("/orders", ShopController.GetOrders);
+
 Router.get("/checkout", ShopController.GetCheckout);
 
 module.exports = Router;
