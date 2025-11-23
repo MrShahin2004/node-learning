@@ -16,7 +16,7 @@ const AdminRoutes = require("./routes/admin");
 const ShopRoute = require("./routes/shop");
 
 // Used the "body-parser" module.
-App.use(BodyParser.urlencoded({extended: false}));
+App.use(BodyParser.urlencoded({ extended: false }));
 App.use(Express.static(Path.join(__dirname, "public")));
 
 // Used my created modules.

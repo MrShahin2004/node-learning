@@ -1,39 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-          name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport"
+    />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
     <title><%= pageTitle %></title>
-    <link href="/css/product.css" rel="stylesheet">
-    <link href="/css/main.css" rel="stylesheet">
-    <link href="/css/forms.css" rel="stylesheet">
-</head>
-<body id="body">
-<%- include("../includes/navigation.ejs") %>
+    <link href="/css/product.css" rel="stylesheet" />
+    <link href="/css/main.css" rel="stylesheet" />
+    <link href="/css/forms.css" rel="stylesheet" />
+  </head>
+  <body id="body">
+    <%- include("../includes/navigation.ejs") %>
 
-<main>
-    <form action="/admin/add-product" class="product-form" method="POST">
+    <main>
+      <form action="/admin/add-product" class="product-form" method="POST">
         <div class="form-control">
-            <label for="title">Title</label>
-            <input style="padding: 0.5rem;" id="title" name="title" type="text">
+          <label for="title">Title</label>
+          <input style="padding: 0.5rem" id="title" name="title" type="text" />
         </div>
         <div class="form-control">
-            <label for="image-url">Image URL</label>
-            <input style="padding: 0.5rem;" id="image-url" name="imageURL" type="text">
+          <label for="image-url">Image URL</label>
+          <input
+            style="padding: 0.5rem"
+            id="image-url"
+            name="imageURL"
+            type="text"
+          />
         </div>
         <div class="form-control">
-            <label for="description">Description</label>
-            <textarea style="padding: 0.5rem;" name="description" id="description" rows="5"></textarea>
+          <label for="description">Description</label>
+          <textarea
+            style="padding: 0.5rem"
+            name="description"
+            id="description"
+            rows="5"
+          ></textarea>
         </div>
         <div class="form-control">
-            <label for="price">Price</label>
-            <input style="padding: 0.5rem;" id="price" name="price" type="number">
+          <label for="price">Price</label>
+          <input
+            style="padding: 0.5rem"
+            id="price"
+            name="price"
+            type="number"
+          />
         </div>
 
         <button class="btn" type="submit">Add Product</button>
-    </form>
-</main>
-</body>
+      </form>
+    </main>
+  </body>
 </html>

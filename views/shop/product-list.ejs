@@ -1,46 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-          name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport"
+    />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
     <title><%= pageTitle %></title>
-    <link href="/css/main.css" rel="stylesheet">
-    <link href="/css/product.css" rel="stylesheet">
-</head>
-<body id="body">
-<%- include("../includes/navigation.ejs") %>
+    <link href="/css/main.css" rel="stylesheet" />
+    <link href="/css/product.css" rel="stylesheet" />
+  </head>
+  <body id="body">
+    <%- include("../includes/navigation.ejs") %>
 
-<main>
-    <% if (prods.length > 0) { %>
-        <h1>My Products</h1>
-        <p>List of all the products...</p>
-        <div class="grid">
-            <% for (let product of prods) { %>
-                <article class="card product-item">
-                    <header class="card__header">
-                        <h1 class="product__title"><%= product.title %></h1>
-                    </header>
-                    <div class="card__image">
-                        <img alt="Product Image"
-                             src=<%= product.imageURL %>>
-                    </div>
-                    <div class="card__content">
-                        <h2 class="product__price">$<%= product.price %></h2>
-                        <p class="product__description"><%= product.description %></p>
-                    </div>
-                    <div class="card__actions">
-                        <form action="/add-to-cart">
-                            <button class="btn">Add to Cart</button>
-                        </form>
-                    </div>
-                </article>
-            <% } %>
-        </div>
-    <% } else { %>
-        <h1>No Products Found</h1>
-    <% } %>
-</main>
-</body>
+    <main>
+      <% if (prods.length > 0) { %>
+      <h1>My Products</h1>
+      <p>List of all the products...</p>
+      <div class="grid">
+        <% for (let product of prods) { %>
+        <article class="card product-item">
+          <header class="card__header">
+            <h1 class="product__title"><%= product.title %></h1>
+          </header>
+          <div class="card__image">
+            <img alt="Product Image" src="<%" ="product.imageURL" % />>
+          </div>
+          <div class="card__content">
+            <h2 class="product__price">$<%= product.price %></h2>
+            <p class="product__description"><%= product.description %></p>
+          </div>
+          <div class="card__actions">
+            <form action="/add-to-cart">
+              <button class="btn">Add to Cart</button>
+            </form>
+          </div>
+        </article>
+        <% } %>
+      </div>
+      <% } else { %>
+      <h1>No Products Found</h1>
+      <% } %>
+    </main>
+  </body>
 </html>
