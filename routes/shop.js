@@ -8,7 +8,7 @@ Router.get("/", ShopController.GetIndex);
 
 Router.get("/products", ShopController.GetProducts);
 
-Router.get("/products/:productId");
+Router.get("/products/:productId", ShopController.GetProduct);
 
 Router.get("/cart", ShopController.GetCart);
 
