@@ -26,5 +26,12 @@
     "imageURL": "https://weudealerimagesprd.blob.core.windows.net/fi13/news/ford-mustang-gtd.jpg",
     "description": "An American muscle car built by Ford",
     "price": "328000"
+  },
+  {
+    "title": "McLaren Senna",
+    "imageURL": "https://images.pistonheads.com/nimg/48578/mceu_29681249031716974050867.jpg",
+    "description": "An insanely fast British supercar",
+    "price": "1000000",
+    "id": "0.49202627352644035"
   }
 ]
