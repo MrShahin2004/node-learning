@@ -3,10 +3,10 @@
 const FSE = require("fs-extra");
 const Path = require("path");
 
-const JSONFilePath = Path.join(Path.dirname(require.main.filename), "data", "products.json");
+const JSONFilePathForProduct = Path.join(Path.dirname(require.main.filename), "data", "products.json");
 
 const GetProductsFromFile = (callback) => {
-    FSE.readFile(JSONFilePath, "utf-8", (error, content) => {
+    FSE.readFile(JSONFilePathForProduct, "utf-8", (error, content) => {
         if (error || !content || !content.length) {
             return callback([]);
         } else {
@@ -33,7 +33,7 @@ module.exports = class Product {
         GetProductsFromFile((products) => {
             products.push(this);
 
-            FSE.writeFile(JSONFilePath, JSON.stringify(products, null, 2),
+            FSE.writeFile(JSONFilePathForProduct, JSON.stringify(products, null, 2),
                 (error) => {
                     if (error) {
                         console.error(error);
