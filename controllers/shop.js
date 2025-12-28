@@ -1,6 +1,7 @@
 "use strict";
 
 const Product = require("../models/product");
+const Cart = require("../models/cart");
 
 exports.GetIndex = (req, res, next) => {
     Product.fetchAll((products) => {
@@ -42,7 +43,9 @@ exports.GetCart = (req, res, next) => {
 
 exports.PostCart = (req, res, next) => {
     let prodId = req.body.productId;
-    console.log(prodId);
+    Product.findById(prodId, (product) => {
+        Cart.addProduct(prodId, product.price);
+    });
     res.redirect("/cart");
 }
 
