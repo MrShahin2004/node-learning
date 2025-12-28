@@ -12,6 +12,8 @@ Router.get("/products/:productId", ShopController.GetProduct);
 
 Router.get("/cart", ShopController.GetCart);
 
+Router.post("/cart", ShopController.PostCart);
+
 Router.get("/orders", ShopController.GetOrders);
 
 Router.get("/checkout", ShopController.GetCheckout);
