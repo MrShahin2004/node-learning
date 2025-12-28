@@ -33,5 +33,12 @@
     "description": "An insanely fast British supercar",
     "price": "1000000",
     "id": "0.49202627352644035"
+  },
+  {
+    "title": "BMW M8",
+    "imageURL": "https://nuvomagazine.com/wp-content/uploads/2019/12/BMW-M8-Competition-Coupe-Front-Hero-High.jpg",
+    "description": "Some solid German car",
+    "price": "180000",
+    "id": "0.5130634052260252"
   }
 ]
