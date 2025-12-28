@@ -1,6 +1,7 @@
 module.exports = class Cart {
-    constructor() {
-        this.products = [];
-        this.totalPrice = 0;
+    static addProduct() {
+        // Fetch the previous cart
+        // Analyze the cart --> Find the existing product
+        // Add new product / Increase quantity
     }
 }
