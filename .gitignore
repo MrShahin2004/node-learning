@@ -1,5 +1,6 @@
 *.log
 .env
+Run-Script.ps1
 node_modules/
 build/
 dist/
