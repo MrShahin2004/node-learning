@@ -16,10 +16,20 @@
     <%- include("../includes/navigation.ejs") %>
 
     <main>
-      <form action="/admin/<%= editing ? 'edit-product' : 'add-product' %>" class="product-form" method="POST">
+      <form
+        action="/admin/<%= editing ? 'edit-product' : 'add-product' %>"
+        class="product-form"
+        method="POST"
+      >
         <div class="form-control">
           <label for="title">Title</label>
-          <input style="padding: 0.5rem" id="title" name="title" type="text" value="<%= editing ? product.title : '' %>" />
+          <input
+            style="padding: 0.5rem"
+            id="title"
+            name="title"
+            type="text"
+            value="<%= editing ? product.title : '' %>"
+          />
         </div>
         <div class="form-control">
           <label for="image-url">Image URL</label>
@@ -28,6 +38,7 @@
             id="image-url"
             name="imageURL"
             type="text"
+            value="<%= editing ? product.imageURL : '' %>"
           />
         </div>
         <div class="form-control">
@@ -37,7 +48,9 @@
             name="description"
             id="description"
             rows="5"
-          ></textarea>
+          >
+            <%= editing ? product.description : '' %></textarea
+          >
         </div>
         <div class="form-control">
           <label for="price">Price</label>
@@ -46,6 +59,7 @@
             id="price"
             name="price"
             type="number"
+            value="<%= editing ? product.price : '' %>"
           />
         </div>
 
