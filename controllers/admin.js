@@ -26,8 +26,8 @@ exports.GetEditProduct = (req, res, next) => {
     }
 
     res.render("admin/edit-product", {
-        pageTitle: "Add Product",
-        path: "/admin/add-product",
+        pageTitle: "Edit Product",
+        path: "/admin/edit-product",
         editing: EditMode
     });
 }
