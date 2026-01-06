@@ -19,7 +19,7 @@
       <form action="/admin/<%= editing ? 'edit-product' : 'add-product' %>" class="product-form" method="POST">
         <div class="form-control">
           <label for="title">Title</label>
-          <input style="padding: 0.5rem" id="title" name="title" type="text" />
+          <input style="padding: 0.5rem" id="title" name="title" type="text" value="<%= editing ? product.title : '' %>" />
         </div>
         <div class="form-control">
           <label for="image-url">Image URL</label>
