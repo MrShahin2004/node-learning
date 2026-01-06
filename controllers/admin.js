@@ -20,6 +20,11 @@ exports.PostAddProduct = (req, res) => {
 }
 
 exports.GetEditProduct = (req, res, next) => {
+    let EditMode = req.query.edit;
+    if (!EditMode) {
+        return res.redirect("/");
+    }
+
     res.render("admin/edit-product", {
         pageTitle: "Add Product",
         path: "/admin/add-product"
