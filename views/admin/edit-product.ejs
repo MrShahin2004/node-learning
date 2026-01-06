@@ -16,7 +16,7 @@
     <%- include("../includes/navigation.ejs") %>
 
     <main>
-      <form action="/admin/add-product" class="product-form" method="POST">
+      <form action="/admin/<%= editing ? 'edit-product' : 'add-product' %>" class="product-form" method="POST">
         <div class="form-control">
           <label for="title">Title</label>
           <input style="padding: 0.5rem" id="title" name="title" type="text" />
