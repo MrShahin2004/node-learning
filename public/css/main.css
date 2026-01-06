@@ -10,6 +10,10 @@
   font-family: "JetBrains Mono", monospace;
 }
 
+a {
+  text-decoration: none;
+}
+
 main {
   padding: 1rem;
   margin: auto;
