@@ -13,4 +13,6 @@ Router.get("/products", AdminController.GetProducts);
 // "/admin/add-product" (POST)
 Router.post("/add-product", AdminController.PostAddProduct);
 
+Router.get("/edit-product/:productId", AdminController.GetEditProduct);
+
 exports.router = Router;
